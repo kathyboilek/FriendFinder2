@@ -1,0 +1,71 @@
+kablo@LAPTOP-3QI5465V MINGW64 ~/FriendFinder2 (master)
+$ git push heroku master
+Enumerating objects: 190, done.
+Counting objects: 100% (190/190), done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (110/110), done.
+Writing objects: 100% (110/110), 122.98 KiB | 812.00 KiB/s, done.
+Total 110 (delta 40), reused 0 (delta 0)
+remote: Compressing source files... done.
+remote: Building source:
+remote:
+remote: -----> Node.js app detected
+remote:
+remote: -----> Creating runtime environment
+remote:
+remote:        NPM_CONFIG_LOGLEVEL=error
+remote:        NODE_VERBOSE=false
+remote:        NODE_ENV=production
+remote:        NODE_MODULES_CACHE=true
+remote:
+remote: -----> Installing binaries
+remote:        engines.node (package.json):  unspecified
+remote:        engines.npm (package.json):   unspecified (use default)
+remote:
+remote:        Resolving node version 8.x...
+remote:        Downloading and installing node 8.11.4...
+remote:        Using default npm version: 5.6.0
+remote:
+remote: -----> Restoring cache
+remote:        - node_modules is checked into source control and cannot be cached
+remote:
+remote: -----> Building dependencies
+remote:        Prebuild detected (node_modules already exists)
+remote:        Rebuilding any native modules
+remote:        npm ERR! path /tmp/build_82a7336c5ed23d2904d8c64252c63b27/node_modules/mime/cli.js
+remote:        npm ERR! code ENOENT
+remote:        npm ERR! errno -2
+remote:        npm ERR! syscall chmod
+remote:        npm ERR! enoent ENOENT: no such file or directory, chmod '/tmp/build_82a7336c5ed23d2904d8c64252c63b27/node_modules/mime/cli.js'
+remote:        npm ERR! enoent This is related to npm not being able to find a file.
+remote:        npm ERR! enoent
+remote:
+remote:        npm ERR! A complete log of this run can be found in:
+remote:        npm ERR!     /tmp/npmcache.C5QBn/_logs/2018-09-09T17_22_12_201Z-debug.log
+remote:
+remote: -----> Build failed
+remote:
+remote:        We're sorry this build is failing! You can troubleshoot common issues here:
+remote:        https://devcenter.heroku.com/articles/troubleshooting-node-deploys
+remote:
+remote:        Some possible problems:
+remote:
+remote:        - node_modules checked into source control
+remote:        https://blog.heroku.com/node-habits-2016#9-only-git-the-important-bits
+remote:
+remote:        - Node version not specified in package.json
+remote:        https://devcenter.heroku.com/articles/nodejs-support#specifying-a-node-js-version
+remote:
+remote:        Love,
+remote:        Heroku
+remote:
+remote:  !     Push rejected, failed to compile Node.js app.
+remote:
+remote:  !     Push failed
+remote: Verifying deploy...
+remote:
+remote: !       Push rejected to fast-ocean-56688.
+remote:
+To https://git.heroku.com/fast-ocean-56688.git
+ ! [remote rejected] master -> master (pre-receive hook declined)
+error: failed to push some refs to 'https://git.heroku.com/fast-ocean-56688.git'
