@@ -4,6 +4,7 @@
   "description": "To be hosted on Heroku",
   "main": "server.js",
   "dependencies": {
+    "body-parser": "^1.18.3",
     "json": "^9.0.6",
     "node.js": "^0.0.0"
   },
