@@ -1,0 +1,25 @@
+{
+  "name": "friendfinder2",
+  "version": "1.0.0",
+  "description": "To be hosted on Heroku",
+  "main": "server.js",
+  "dependencies": {
+    "json": "^9.0.6",
+    "node.js": "^0.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kathyboilek/FriendFinder2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kathyboilek/FriendFinder2/issues"
+  },
+  "homepage": "https://github.com/kathyboilek/FriendFinder2#readme"
+}
